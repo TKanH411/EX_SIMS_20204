@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model SIMS_SE06205.Models.StudentViewModel
+@{
+    ViewData["title"] = "Student Update";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div class="row">
+    <div class="col col-sm-12 col-md-12 p-3">
+        <div class="card">
+            <div class="card-header">
+                <h5> Update Student</h5>
+            </div>
+            <div class="card-body">
+                <form enctype="multipart/form-data" asp-action="Update" method="post">
+                    <div class=" row">
+                        <div class="col-sm-12 col-md-5">
+                          
+                                <div class="mb-3">
+                                    <label asp-for="Code"></label>
+                                    <input type="text" class="form-control" asp-for="Code" />
+                                    <span asp-validation-for="Code"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="FirstName"></label>
+                                    <input type="text" class="form-control" asp-for="FirstName" />
+                                    <span asp-validation-for="FirstName"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="LastName"></label>
+                                    <input type="text" class="form-control" asp-for="LastName" />
+                                    <span asp-validation-for="LastName"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Email"></label>
+                                    <input type="email" class="form-control" asp-for="Email" />
+                                    <span asp-validation-for="Email"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Phone"></label>
+                                    <input type="text" class="form-control" asp-for="Phone" />
+                                    <span asp-validation-for="Phone"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Address"></label>
+                                    <input type="text" class="form-control" asp-for="Address" />
+                                    <span asp-validation-for="Address"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Gender"></label>
+                                    <select class="form-control" asp-for="Gender">
+                                        <option value="Male"> Male </option>
+                                        <option value="Female"> Female </option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="BirthDay"></label>
+                                    <input type="date" class="form-control" asp-for="BirthDay" />
+                                </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary">Submit</button>
+                                <a class="btn btn-info" href="@Url.Action("Index","Student")">Back to list</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

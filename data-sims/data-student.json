@@ -1,0 +1,68 @@
+[
+  {
+    "Id": "1",
+    "FirstName": "Duy Thanh",
+    "LastName": "Nguyen",
+    "Code": "BH01111",
+    "Email": "thanhhihi@gmail.com",
+    "Phone": "0966666666",
+    "Address": "Ha Noi",
+    "Gender": "Male",
+    "BirthDay": "2004-02-29"
+  },
+  {
+    "Id": "2",
+    "FirstName": "Messi",
+    "LastName": "Nguyen",
+    "Code": "BH01112",
+    "Email": "Mesi123@gmail.com",
+    "Phone": "09555555",
+    "Address": "Langson",
+    "Gender": "Male",
+    "BirthDay": "2004-03-03"
+  },
+  {
+    "Id": "3",
+    "FirstName": "Ronaldo",
+    "LastName": "Nguyen",
+    "Code": "BH01113",
+    "Email": "rado123@gmail.com",
+    "Phone": "096666666",
+    "Address": "Bac Giang",
+    "Gender": "Male",
+    "BirthDay": "2004-02_22"
+  },
+  {
+    "Id": "4",
+    "FirstName": "Eto",
+    "LastName": "Nguyen",
+    "Code": "BH01114",
+    "Email": "etoglobo@gmail.com",
+    "Phone": "097777777",
+    "Address": "Ha Noi",
+    "Gender": "Male",
+    "BirthDay": "2004-03-02"
+  },
+  {
+    "Id": "5",
+    "FirstName": "Tivi",
+    "LastName": "Nguyen",
+    "Code": "BH01115",
+    "Email": "Tivi982@gmail.com",
+    "Phone": "0966666666",
+    "Address": "Ha Noi",
+    "Gender": "Male",
+    "BirthDay": "2004-02_02"
+  },
+  {
+    "Id": "10",
+    "FirstName": null,
+    "LastName": null,
+    "Code": null,
+    "Email": null,
+    "Phone": null,
+    "Address": null,
+    "Gender": null,
+    "BirthDay": null
+  }
+]
